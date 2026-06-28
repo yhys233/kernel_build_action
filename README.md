@@ -36,7 +36,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Build
-        uses: dabao1955/kernel_build_action@main
+        uses: yhys233/kernel_build_action@main
         with:
           kernel-url: https://github.com/AcmeUI-Devices/android_kernel_xiaomi_cas
           kernel-branch: taffy
